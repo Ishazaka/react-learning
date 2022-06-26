@@ -9,3 +9,5 @@ const Counter = () => {
   const [person, setPerson] = useState({ name: "Geckma", age: 18 });
    const [count, setCount] = useState([]);
   const [block, setBlock] = useState([]);
+ const [add, setAdd] = useState(0);
+  const [x, setX] = useState(0);
