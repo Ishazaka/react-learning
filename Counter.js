@@ -11,3 +11,5 @@ const Counter = () => {
   const [block, setBlock] = useState([]);
  const [add, setAdd] = useState(0);
   const [x, setX] = useState(0);
+  const [y, setY] = useState(0);
+  const [time, setTime] = useState(0);
