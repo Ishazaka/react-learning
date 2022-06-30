@@ -37,3 +37,6 @@ const Counter = () => {
   const addobj = () => {
    var newid = new Date().getTime().toString();
     setBlock([
+      ...block,
+      {
+        // id: block.length
