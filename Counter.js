@@ -20,3 +20,6 @@ const Counter = () => {
       setPerson((p) => ({ ...p, age: p.age + 1 }));
     }
   };
+
+    const thrice = () => {
+    for (let i = 0; i < 3; i++) {
