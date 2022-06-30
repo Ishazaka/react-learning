@@ -42,3 +42,6 @@ const Counter = () => {
         // id: block.length
     id: newid,
         value: Math.floor(Math.random() * 10) + 1,
+      },
+    ]);
+  };
