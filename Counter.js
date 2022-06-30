@@ -35,3 +35,5 @@ const Counter = () => {
 
     //   useState for array of objects
   const addobj = () => {
+   var newid = new Date().getTime().toString();
+    setBlock([
