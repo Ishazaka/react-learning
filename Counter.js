@@ -26,3 +26,6 @@ const Counter = () => {
       setNumber((prev) => prev + 1);
     }
   };
+
+    //  use State for array
+  const adding = () => {
