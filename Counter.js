@@ -29,3 +29,6 @@ const Counter = () => {
 
     //  use State for array
   const adding = () => {
+    let value = Math.floor(Math.random() * 10) + 1;
+    setCount([...count, value]);
+  };
