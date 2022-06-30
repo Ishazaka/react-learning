@@ -13,3 +13,6 @@ const Counter = () => {
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
   const [time, setTime] = useState(0);
+
+   //   useState for object
+  const increTwice = () => {
