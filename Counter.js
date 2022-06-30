@@ -32,3 +32,6 @@ const Counter = () => {
     let value = Math.floor(Math.random() * 10) + 1;
     setCount([...count, value]);
   };
+
+    //   useState for array of objects
+  const addobj = () => {
