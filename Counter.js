@@ -23,3 +23,6 @@ const Counter = () => {
 
     const thrice = () => {
     for (let i = 0; i < 3; i++) {
+      setNumber((prev) => prev + 1);
+    }
+  };
