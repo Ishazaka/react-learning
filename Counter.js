@@ -16,3 +16,7 @@ const Counter = () => {
 
    //   useState for object
   const increTwice = () => {
+     for (let i = 0; i < 2; i++) {
+      setPerson((p) => ({ ...p, age: p.age + 1 }));
+    }
+  };
