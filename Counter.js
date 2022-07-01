@@ -61,3 +61,4 @@ const Counter = () => {
   setTimeout(() => {
     setTime(time + 1)
     } , 1000)
+  } , [time])
