@@ -59,3 +59,5 @@ const Counter = () => {
 
     useEffect(()=>{
   setTimeout(() => {
+    setTime(time + 1)
+    } , 1000)
