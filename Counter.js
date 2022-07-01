@@ -56,3 +56,6 @@ const Counter = () => {
     window.addEventListener("mousemove", movemouse);
     
   });
+
+    useEffect(()=>{
+  setTimeout(() => {
