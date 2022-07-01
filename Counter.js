@@ -45,3 +45,8 @@ const Counter = () => {
       },
     ]);
   };
+
+   function movemouse(e) {
+    setY(e.clientY);
+    setX(e.clientX);
+  }
