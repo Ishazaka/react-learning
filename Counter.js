@@ -50,3 +50,9 @@ const Counter = () => {
     setY(e.clientY);
     setX(e.clientX);
   }
+
+   useEffect(() => {
+    document.title = `you clicked ${add} times`;
+    window.addEventListener("mousemove", movemouse);
+    
+  });
