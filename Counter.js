@@ -85,4 +85,6 @@ const Counter = () => {
           decreement
         </button>
  <button onClick={thrice}>Thrice increment</button>
-      
+       <div>
+          the age of {person.name} is : {person.age}
+          <br /> 
