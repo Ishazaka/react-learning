@@ -77,3 +77,12 @@ const Counter = () => {
         <button onClick={() => setNumber((prevVal) => prevVal + 1)}>
           increment
         </button>
+  <button
+          onClick={() =>
+            setNumber((prevVal) => (prevVal > 0 ? prevVal - 1 : prevVal))
+          }
+        >
+          decreement
+        </button>
+ <button onClick={thrice}>Thrice increment</button>
+      
