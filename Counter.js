@@ -96,3 +96,7 @@ const Counter = () => {
  {count.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
+  {JSON.stringify(count)}
+      </div>
+      <button onClick={addobj}>increase number</button>
+      <br />
