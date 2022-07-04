@@ -73,3 +73,7 @@ const Counter = () => {
         </h2>
         <button onClick={() => setAdd(add + 1)}>Click {add} times</button>
         <h2>{number}</h2>
+  <button onClick={() => setNumber(initialvalue)}>reset</button>
+        <button onClick={() => setNumber((prevVal) => prevVal + 1)}>
+          increment
+        </button>
