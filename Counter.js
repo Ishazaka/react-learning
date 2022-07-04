@@ -100,3 +100,8 @@ const Counter = () => {
       </div>
       <button onClick={addobj}>increase number</button>
       <br />
+ <div>
+        {block.map((block, index) => (
+          <li key={index}>{block.value}</li>
+        ))}
+      </div>
