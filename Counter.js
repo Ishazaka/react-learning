@@ -88,3 +88,8 @@ const Counter = () => {
        <div>
           the age of {person.name} is : {person.age}
           <br /> 
+  <button onClick={increTwice}>Increment Twice</button>
+        </div>
+
+        <button onClick={adding}>Add a number</button>
+        <br />
