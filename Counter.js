@@ -68,3 +68,8 @@ const Counter = () => {
     <>
       <div>
         {time}
+   <h2>
+          y cordinates {y} , x cord {x}
+        </h2>
+        <button onClick={() => setAdd(add + 1)}>Click {add} times</button>
+        <h2>{number}</h2>
