@@ -105,3 +105,9 @@ const Counter = () => {
           <li key={index}>{block.value}</li>
         ))}
       </div>
+  {JSON.stringify(block)}
+    </>
+  );
+};
+
+export default Counter;
