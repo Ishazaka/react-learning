@@ -62,3 +62,9 @@ const Counter = () => {
     setTime(time + 1)
     } , 1000)
   } , [time])
+
+  
+   return (
+    <>
+      <div>
+        {time}
