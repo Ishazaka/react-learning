@@ -93,3 +93,6 @@ const Counter = () => {
 
         <button onClick={adding}>Add a number</button>
         <br />
+ {count.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
