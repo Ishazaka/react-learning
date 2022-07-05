@@ -6,3 +6,8 @@ import Counter from "./Counter";
 import Users from "./data";
 import Table from './Table';
 import Paginate from './Paginate'
+
+function App() {
+  const [query, setQuery] = useState("");
+ const [currentpage , setCurrentpage] = useState(1);
+ const [dataperpage , setDataperpage] = useState(10);
