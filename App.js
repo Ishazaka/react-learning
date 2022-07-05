@@ -15,3 +15,7 @@ function App() {
    const lastdata = currentpage * dataperpage;
  const firstdata = lastdata - dataperpage;
  const currentdata = Users.slice(firstdata , lastdata)
+
+  const paginateme = (number) => {
+   setCurrentpage(number)
+ }
