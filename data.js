@@ -7,3 +7,10 @@
       "email": "emcclune0@xrea.com",
       "gender": "Female",
     },
+      {
+      "id": 2,
+      "first_name": "Felix",
+      "last_name": "Ingleston",
+      "email": "fingleston1@hibu.com",
+      "gender": "Female",
+    },
