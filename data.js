@@ -49,3 +49,17 @@
       "email": "csharvill6@narod.ru",
       "gender": "Male"
    , },
+    {
+      "id": 8,
+      "first_name": "Lamond",
+      "last_name": "Ricket",
+      "email": "lricket7@washington.edu",
+      "gender": "Male"
+   , },
+    {
+      "id": 9,
+      "first_name": "Florida",
+      "last_name": "Licciardiello",
+      "email": "flicciardiello8@sina.com.cn",
+      "gender": "Female",
+    },
