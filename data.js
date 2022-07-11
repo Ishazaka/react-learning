@@ -21,3 +21,17 @@
       "email": "tbergstram2@pbs.org",
       "gender": "Female",
     },
+    {
+      "id": 4,
+      "first_name": "Holly-anne",
+      "last_name": "Knighton",
+      "email": "hknighton3@booking.com",
+      "gender": "Female",
+    },
+    {
+      "id": 5,
+      "first_name": "Sollie",
+      "last_name": "Naulty",
+      "email": "snaulty4@hud.gov",
+      "gender": "Male"
+   , },
