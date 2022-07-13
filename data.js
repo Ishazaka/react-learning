@@ -119,3 +119,24 @@
       "email": "iaxbyg@paginegialle.it",
       "gender": "Male"
    , },
+  {
+      "id": 18,
+      "first_name": "Andee",
+      "last_name": "Babcock",
+      "email": "ababcockh@hubpages.com",
+      "gender": "Female",
+    },
+    {
+      "id": 19,
+      "first_name": "Shawn",
+      "last_name": "Baxstair",
+      "email": "sbaxstairi@artisteer.com",
+      "gender": "Female",
+    },
+    {
+      "id": 20,
+      "first_name": "Randolph",
+      "last_name": "Chowne",
+      "email": "rchownej@nymag.com",
+      "gender": "Male"
+   , },
