@@ -161,3 +161,24 @@
       "email": "bwingeattm@taobao.com",
       "gender": "Female",
     },
+   {
+      "id": 24,
+      "first_name": "Ameline",
+      "last_name": "Jeanon",
+      "email": "ajeanonn@bandcamp.com",
+      "gender": "Female",
+    },
+    {
+      "id": 25,
+      "first_name": "Shepperd",
+      "last_name": "Oertzen",
+      "email": "soertzeno@arstechnica.com",
+      "gender": "Male"
+   , },
+    {
+      "id": 26,
+      "first_name": "Sean",
+      "last_name": "Veltmann",
+      "email": "sveltmannp@jigsy.com",
+      "gender": "Male"
+   , },
