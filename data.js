@@ -210,3 +210,24 @@
       "email": "jkennefickt@icq.com",
       "gender": "Female",
     },
+    {
+      "id": 31,
+      "first_name": "Elli",
+      "last_name": "Pettigrew",
+      "email": "epettigrewu@nsw.gov.au",
+      "gender": "Female",
+    },
+    {
+      "id": 32,
+      "first_name": "Nevins",
+      "last_name": "McGlaughn",
+      "email": "nmcglaughnv@webnode.com",
+      "gender": "Male"
+   , },
+    {
+      "id": 33,
+      "first_name": "Roseann",
+      "last_name": "Schwant",
+      "email": "rschwantw@bandcamp.com",
+      "gender": "Female",
+    },
