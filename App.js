@@ -21,3 +21,27 @@ function App() {
   const paginateme = (number) => {
    setCurrentpage(number)
  }
+
+  
+  const search = (data)=>{
+   return  data.filter((item) => item.first_name.toLowerCase().includes(query) || item.email.toLowerCase().includes(query) )
+  }
+  return (
+    <>
+      <div className="box">
+        <input
+          type="text"
+          placeholder="text"
+          onChange={(e) => setQuery(e.target.value)}
+        />
+      </div>
+
+  <Table data={search(currentdata)} />
+  <Paginate dataperpage={dataperpage} totaldata={Users.length}  paginateme={paginateme}/>
+      {/* < Popup />
+      <Counter /> */}
+    </>
+  );
+}
+
+export default App;
