@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(212, 218, 221);
+}
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .student-info-container {
+  width: 650px;
+   height: 590px;
+    border-radius: 2px;
+    background-color: white;
+     overflow: auto;
+     border-bottom: 1px solid rgba(255,255, 255, 0.7);
+     border-right: 1px solid rgba(255,255, 255, 0.6);
+      box-shadow: 0 27px 55px 0 rgba(255,255,255, 0.3),
+         0 17px 17px 0 rgba(0, 0, 0, 0.15);
+
+}
+input{
+ 
+  padding: 0 12px;
+  width: 100%;
+  height: 40px;
+  color: grey;
+  font-size: 14px;
+  font-family: 'Raleway';
+  border: none;
+  position: sticky;
+}
+
+
+.each-student-info{
+  padding: 10px;
+  display: flex;
+}
+
+.img-box{
+  margin: 10px;
+ height: 120px;
+ width: 120px;
+ overflow: hidden;
+ border: 1px solid rgb(173, 172, 172);
+ border-radius: 50%;
+}
+.img-box img{
+  height: 110px;
+ width: 110px;
+ 
+}
+
+.name_icon{
+  width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.add-test{
+  justify-content: flex-end;
+}
+
+h5{
+  color: gray ;
+  margin:4px 6px;
+  font-family:'Raleway' ;
+}
+hr{
+    height: 1px;
+     background-color: rgb(231, 221, 221);
+     border: none;
+}
+
+
+.toggleButton {
+  margin-left: auto;
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 250%;
+  color: gray;
+}
+
+.toggleButton:hover {
+  color: black;
+}
