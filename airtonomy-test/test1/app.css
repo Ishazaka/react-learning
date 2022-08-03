@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #d4d0d0;
+}
+.Container-box{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.info-card{
+  position: relative;
+  width: 660px ;
+  height: 600px;
+  border-radius: 3px;
+  background-color: white;
+  overflow: auto;
+}
+
+.search-areas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  width: 45%;
+  position: fixed;
+  margin-bottom: 10px;
+}
+
+.content {
+  margin-top: 30px;
+  padding-top: 100px;
+}
+
+input {
+  height: 50px;
+  outline: 0;
+  border-color: lightgray;
+  border-width: 0 0 1px;
+  font-family: inherit;
+  font-size: medium;
+
+}
+
+
+h5 {
+  color: #686777;
+  margin: 0 20px ;
+}
+
+li{
+  list-style-type: none;
+ 
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 3%;
+  list-style-type: none;
+}
+
+.fullName {
+  font-weight: bold;
+  font-size: 200%;
+  color: black;
+  margin-top: -10%;
+  padding-bottom: 3%;
+}
+
+.user-pic {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 15%;
+}
+
+.tag-area {
+  display: inline-block;
+}
+
+.tagField {
+  float: left;
+  margin: 2px;
+  padding: 5px;
+  background-color: darkgray;
+  border-radius: 10%;
+}
+
+.tagInput {
+  margin: 5% 20%;
+}
+
+.show-btn {
+  margin-left: auto;
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 250%;
+  color: gray;
+}
+
+.show-btn:hover {
+  color: black;
+}
