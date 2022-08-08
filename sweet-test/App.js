@@ -10,7 +10,7 @@ function App() {
     let res = await fetch(url);
     let data = await res.json();
     setGeckoData(data.rates);
-    // console.log(Object.entries(data.rates))
+    console.log(Object.entries(data.rates))
   }
 
   useEffect(() => {
